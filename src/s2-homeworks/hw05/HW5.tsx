@@ -1,7 +1,8 @@
 import React from 'react'
-import { HashRouter } from 'react-router-dom'
+import {HashRouter, Outlet} from 'react-router-dom'
 import { Layout } from './layout/Layout'
 import Pages from './Pages'
+import HW14 from "../hw14/HW14";
 
 /*
 * 1 - в файле Pages.tsx дописать роуты на все страницы
